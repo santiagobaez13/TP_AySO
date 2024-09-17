@@ -29,7 +29,7 @@ git commit -m "ADD: Listado de usuarios ordenado"
 echo "tcpdump" > comando_dump_net
 echo "man tcpdump" >> comando_dump_net
 git add comando_dump_net
-git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git commit -m "ADD: Comando para Capturar"
 cat <<EOF > README.md
 Alumno: Santiago Baez 
 División: 116 
@@ -39,8 +39,8 @@ EOF
 git add README.md
 git commit -m "docs: Añadiendo información del alumno"
 history -a
-cp $HOME/.bash_history Historial_comandos_Tu-Nombre.txt
-git add Historial_comandos_Tu-Nombre.txt
+cp $HOME/.bash_history Historial_comandos_santiago.txt
+git add Historial_comandos_santiago.txt
 git commit -m "ADD: Historial de comandos"
 git add Historial_comandos_santiago.txt
 history -a
