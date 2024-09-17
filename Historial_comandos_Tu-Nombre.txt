@@ -39,3 +39,8 @@ EOF
 git add README.md
 git commit -m "docs: Añadiendo información del alumno"
 history -a
+cp $HOME/.bash_history Historial_comandos_Tu-Nombre.txt
+git add Historial_comandos_Tu-Nombre.txt
+git commit -m "ADD: Historial de comandos"
+git add Historial_comandos_santiago.txt
+history -a
