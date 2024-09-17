@@ -1,0 +1,41 @@
+cd
+mkdir repogit
+cd TP_AySO
+cd repogit
+git clone git@github.com:santiagobaez13/TP_AySO.git
+cd T
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep -i HOME_URL /etc/os-release
+whoami
+echo “vagrant=$(whoami)” > datos_usuario.txt
+git add .
+gid add .
+git add .
+git config --global user.email thiagoarias14@gmail.com
+git config --global user.name santiagobaez13
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenado"
+echo "tcpdump" > comando_dump_net
+echo "man tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF > README.md
+Alumno: Santiago Baez 
+División: 116 
+Turno: Mañana 
+EOF
+
+git add README.md
+git commit -m "docs: Añadiendo información del alumno"
+history -a
