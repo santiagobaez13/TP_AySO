@@ -1,1 +1,2 @@
 “vagrant=vagrant”
+model name	: AMD Athlon 3000G with Radeon Vega Graphics
